@@ -1,0 +1,25 @@
+<html>
+ <body>
+	<div style="color:green; font-size:42px;">
+		<script language="JavaScript">
+			var D1_Luk=prompt("Dzień 1 = ","");
+			var G1_Luk=prompt("Godzina 1 = ","");
+			var D2_Luk=prompt("Dzień 2 = ","");
+			var G2_Luk=prompt("Godzina 2 = ","");
+			var iledni;
+			var ilesekund;
+			var ilegodzin;
+			var a=parseFloat(D1_Luk);
+			var b=parseFloat(D2_Luk);
+			var e=parseFloat(G1_Luk);
+			var f=parseFloat(G2_Luk);
+			iledni=a-b;
+			var c=parseFloat(iledni);
+			ilegodzin=f-e;
+			var d=parseFloat(ilegodzin);
+			ilesekund=(c*86400)-(d*3600);
+			document.write("Ilosc sekund miedzy dniem "+a+", a dniem "+b+" i godziną "+e+", a godziną "+f+",to "+ilesekund+"<br>");
+		</script>
+	</div>
+ </body>
+</html>
