@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+ <script language="JavaScript">
+ 
+ document.write("<font color=green size=5>MENU</font>"+"<br><br>");
+ document.write("<font color=red size=4>1-CZERWONY</font>"+"<br><br>");
+ document.write("<font color=blue size=4>2-NIEBIESKI</font>"+"<br><br>");
+ 
+ function kolor()
+ {
+	var x=prompt("podaj liczbę lub kolor","");
+	
+	if (x==1 || x=="czerwony")
+	{
+	document.write("<font color=red size=7>wczytałeś kolor czerwony</font>"+"<br>");
+	}
+	
+	if (x==2 || x=="niebieski")
+	{
+	document.write("<font color=blue size=1>wczytałeś kolor niebieski</font>"+"<br>");
+	}
+ }
+ 
+
+ </script>
+  <input type="button" onclick="kolor()" value="Sprawdź" /> 
+</body>
+
+</html>
